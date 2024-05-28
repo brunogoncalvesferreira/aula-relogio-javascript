@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Slab", sans-serif;
+  background-color: #0f172a;
+  color: #fff;
+
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.clock {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 6px;
+
+  width: 300px;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+span {
+  font-size: 48px;
+}
